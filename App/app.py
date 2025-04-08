@@ -18,7 +18,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Define model directory
-MODEL_DIR = r'C:\Users\sujal\OneDrive\Documents\Projects\Medical diagnosis using AI\Data\models'
+MODEL_DIR = "Data\models"
 
 # Function to load the selected model
 def load_model(disease, model_type):
